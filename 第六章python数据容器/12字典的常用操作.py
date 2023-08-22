@@ -28,7 +28,7 @@ for key in my_dict1:
     print(f"2字典的key是:{key}")
     print(f"2字典的value是:{my_dict1[key]}")
 
-# 统计字典的元素数量 len()
+# 统计字典的元素数量 len().
 
 
 
