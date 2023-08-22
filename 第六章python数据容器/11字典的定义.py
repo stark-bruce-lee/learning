@@ -25,5 +25,3 @@ stu_score_dict = {
 # 嵌套字典中获取数据
 print(stu_score_dict["王力宏"]["语文"])
 
-# a
-
