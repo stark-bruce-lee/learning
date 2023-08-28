@@ -1,5 +1,5 @@
 # 打开文件
-f = open("D:/测试.txt", "r", encoding="UTF-8")
+f = open("D:/bill.txt", "r", encoding="UTF-8")
 # 读取文件 - read()
 # print(f"读取10个字节的结果：{f.read(10)}")
 # print(f"读取所有文本的结果：{f.read()}")
@@ -28,6 +28,6 @@ f = open("D:/测试.txt", "r", encoding="UTF-8")
 # f.close()
 
 # with open 语法操作文件 执行完自动关闭文件
-with open("D:/测试.txt", "r", encoding="UTF-8") as f:
+with open("D:/bill.txt", "r", encoding="UTF-8") as f:
     for line in f:
         print(line)
